@@ -16,22 +16,14 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-	Additional \
-	QuickBoot \
-    qcrilmsgtunnel \
-    shutdownlistener
-
-PRODUCT_PACKAGES += \
     libHevcSwDecoder \
-    libmm-abl \
+    com.qualcomm.location \
+    TimeService \
     libtime_genoff \
     libTimeService \
-    TimeService
-
-PRODUCT_PACKAGES += \
-    libscale 
-
-
+    libmdmdetect \
+    libperipheral_client \
+    qcrilmsgtunnel \
+    shutdownlistener
 
 $(call inherit-product, vendor/ZTE/NX507J/NX507J-vendor-blobs.mk)

@@ -312,13 +312,98 @@ PRODUCT_COPY_FILES += \
     vendor/ZTE/NX507J/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/ZTE/NX507J/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/ZTE/NX507J/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
-    vendor/ZTE/NX507J/proprietary/lib/hw:system/lib/hw \
+    vendor/ZTE/NX507J/proprietary/lib/libantradio.so:system/lib/libantradio.so \
+    vendor/ZTE/NX507J/proprietary/lib/libchromatix_imx135_069_liveshot.so:system/lib/libchromatix_imx135_069_liveshot.so \
+    vendor/ZTE/NX507J/proprietary/lib/libchromatix_imx135_front_liveshot.so:system/lib/libchromatix_imx135_front_liveshot.so \
+    vendor/ZTE/NX507J/proprietary/lib/libchromatix_imx135_gbao_lc898122_liveshot.so:system/lib/libchromatix_imx135_gbao_lc898122_liveshot.so \
+    vendor/ZTE/NX507J/proprietary/lib/libchromatix_imx135_gbao_liveshot.so:system/lib/libchromatix_imx135_gbao_liveshot.so \
+    vendor/ZTE/NX507J/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
+    vendor/ZTE/NX507J/proprietary/lib/libchromatix_imx135_z5s_069_liveshot.so:system/lib/libchromatix_imx135_z5s_069_liveshot.so \
+    vendor/ZTE/NX507J/proprietary/lib/libchromatix_imx135_z5s_liveshot.so:system/lib/libchromatix_imx135_z5s_liveshot.so \
+    vendor/ZTE/NX507J/proprietary/lib/libchromatix_imx220_liveshot.so:system/lib/libchromatix_imx220_liveshot.so \
+    vendor/ZTE/NX507J/proprietary/lib/libchromatix_t4k35_liveshot.so:system/lib/libchromatix_t4k35_liveshot.so \
+    vendor/ZTE/NX507J/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/ZTE/NX507J/proprietary/lib/libgeolocation.so:system/lib/libgeolocation.so \
+    vendor/ZTE/NX507J/proprietary/lib/libion.so:system/lib/libion.so \
+    vendor/ZTE/NX507J/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
+    vendor/ZTE/NX507J/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
+    vendor/ZTE/NX507J/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
+    vendor/ZTE/NX507J/proprietary/lib/libmorpho_strobe_photo_jni.so:system/lib/libmorpho_strobe_photo_jni.so \
+    vendor/ZTE/NX507J/proprietary/lib/libnamparser.so:system/lib/libnamparser.so \
+    vendor/ZTE/NX507J/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
+    vendor/ZTE/NX507J/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
+    vendor/ZTE/NX507J/proprietary/lib/libxml2.so:system/lib/libxml2.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmgesture-bus2.so:system/vendor/lib/libmmgesture-bus2.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libpfecommon.so:system/vendor/lib/libpfecommon.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libprofiler_msmadc.so:system/vendor/lib/libprofiler_msmadc.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfdmmutils.so:system/vendor/lib/libwfdmmutils.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
+    vendor/ZTE/NX507J/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/ZTE/NX507J/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
-    vendor/ZTE/NX507J/proprietary/lib/hw/copybit.msm8974.so:system/lib/hw/copybit.msm8974.so \
     vendor/ZTE/NX507J/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/ZTE/NX507J/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
-    vendor/ZTE/NX507J/proprietary/lib/hw/gralloc.msm8974.so:system/lib/hw/gralloc.msm8974.so \
-    vendor/ZTE/NX507J/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
     vendor/ZTE/NX507J/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/ZTE/NX507J/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/ZTE/NX507J/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -379,7 +464,6 @@ PRODUCT_COPY_FILES += \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-    vendor/ZTE/NX507J/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
@@ -389,7 +473,6 @@ PRODUCT_COPY_FILES += \
     vendor/ZTE/NX507J/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/ZTE/NX507J/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
@@ -416,7 +499,6 @@ PRODUCT_COPY_FILES += \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/ZTE/NX507J/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/ZTE/NX507J/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -461,6 +543,3 @@ PRODUCT_COPY_FILES += \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/ZTE/NX507J/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/ZTE/NX507J/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/ZTE/NX507J/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
-    vendor/ZTE/NX507J/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    vendor/ZTE/NX507J/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so
